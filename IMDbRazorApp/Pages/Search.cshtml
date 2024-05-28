@@ -1,0 +1,39 @@
+﻿@page
+@using IMDbRazorApp
+@model SearchModel
+@{
+    ViewData["Title"] = "Search Movies";
+}
+
+<h1>Search Movies</h1>
+
+<form method="get">
+    <div>
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" value="@Model.Title" />
+    </div>
+    <div>
+        <label for="type">Type:</label>
+        <input type="text" id="type" name="type" value="@Model.Type" />
+    </div>
+    <div>
+        <label for="year">Year:</label>
+        <input type="text" id="year" name="year" value="@Model.Year" />
+    </div>
+    <button type="submit">Search</button>
+</form>
+
+@if (Model.Movies != null && Model.Movies.Count > 0)
+{
+    <h2>Results:</h2>
+    <ul>
+        @foreach (var movie in Model.Movies)
+        {
+            <li>
+                <img src="@movie.Poster" alt="Poster of @movie.Title" width="100" />
+                <strong>@movie.Title (@movie.Year)</strong>
+                <strong>@movie.Type (@movie.Type)</strong>
+            </li>
+        }
+    </ul>
+}

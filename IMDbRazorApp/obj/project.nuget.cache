@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "GmI+x0zg7A4Wxw9J6TuoaAP+YZ1VDDLNqkt5n4Tp0YTkaP5HkKbH06ZwuTFE/k2EPKjGN8bJv4NUmDCOpcFKCg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\profj\\source\\repos\\IMDbRazorApp\\IMDbRazorApp\\IMDbRazorApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\profj\\.nuget\\packages\\system.net.http.json\\8.0.0\\system.net.http.json.8.0.0.nupkg.sha512",
+    "C:\\Users\\profj\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\profj\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

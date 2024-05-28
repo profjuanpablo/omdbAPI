@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "9ib7XHeihwbAyIWqJqGTMG+IkFeUBbeu2aYfIz3fNAc=",
+  "Source": "IMDbRazorApp",
+  "BasePath": "_content/IMDbRazorApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
